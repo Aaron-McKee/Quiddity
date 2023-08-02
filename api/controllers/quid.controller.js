@@ -108,12 +108,12 @@ export const getAllQuids = async (req, res, next) => {
   const filters = {
     ...(q.userId && { userId: q.userId }),
     ...(q.cat && { cat: q.cat }),
-    // ...((q.min || q.max) && {
-    //   price: {
-    //     ...(q.min && { $gt: q.min }),
-    //     ...(q.max && { $lt: q.max }),
-    //   },
-    // }),
+    ...((q.min || q.max) && {
+      price: {
+        ...(q.min && { $gt: q.min }),
+        ...(q.max && { $lt: q.max }),
+      },
+    }),
     ...(q.search && { title: { $regex: q.search, $options: "i" } }),
   };
   try {
