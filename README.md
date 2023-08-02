@@ -1,8 +1,8 @@
-This project was built using React, Sass, HTML, JSX, Rest API, Node JS, Express and MongoDB with JWT and Stripe integration. 
+This is a MERN-Stack prodject built using React, Express, Sass, JSX, Node JS, and MongoDB with JWT and Stripe integration. 
 It is a market-place outsourcing web application.
 
-Prerequisites  - Check package.json for full list: 
 
+Prerequisites  - Check package.json for full list: 
 
 NPM
 
@@ -20,7 +20,10 @@ MongoDB
 
 Nodemon
 
+
+
 The project repository can be found in GitHub link.
+
 
 
 Check that you have node and npm installed.
@@ -46,9 +49,13 @@ To start the api side application run the following commmand:
 
 nodemon 
 
+
+
 Environment Variables:
 
 To run this project, you will need to add the following environment variables to your .env file:
+
+
 
 Server
 
@@ -67,6 +74,8 @@ Client
 VITE_API_URL e.g. http://localhost:3000/api or production deployed server link
 
 VITE_STRIPE_PUBLISHABLE_KEY e.g. Publishable key from stripe dashboard
+
+
 
 Tools used on this project:
 
