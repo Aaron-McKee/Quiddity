@@ -48,7 +48,8 @@ node.js
 nodemon 7.3.3
 mongoose 7.3.3
 
-
+Please review package.json below src file for list of client-side dependencies. 
+Please review package.json in api file for full list of server-side dependencies.
 ```
 
 ### Installing
