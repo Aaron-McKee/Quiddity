@@ -1,5 +1,5 @@
 This project was built using React, Sass, HTML, JSX, Rest API, Node JS, Express and MongoDB with JWT and Stripe integration. 
-It is an freelance outsourcing web application.
+It is a market-place outsourcing web application.
 
 Prerequisites  - Check package.json for full list: 
 
