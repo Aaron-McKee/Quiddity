@@ -18,7 +18,7 @@ Node JS
 
 MongoDB
 
-nodemon
+Nodemon
 
 The project repository can be found in GitHub link.
 
