@@ -1,29 +1,57 @@
-This is a MERN-Stack prodject built using React, Express, Sass, JSX, Node JS, and MongoDB with JWT and Stripe integration. 
-It is a market-place outsourcing web application.
+# Quiddity 
+
+## Features - Created as a Marketplace outsource web application.
+
+Join Page - Create a new account and sign-in as a buyer or a seller.
+
+Sign-in Page - Log in with registered username and password. 
+
+Landing Page - Search and filter services or product offerings by buissness name, location or by category (Best Selling and Newest). 
+
+Quid Cards - Card options that display services for sale by catagory (Animal Care, Health and Beauty, Local Fare, Arts and Crafts etc...)
+
+Seller Services Dashboard - Displays seller information, description of service or product, price of service or product, location of business and typical delivery time. 
+
+Create New Service/Product - Sellers can create new service or products on the "Add Quid Page" that will display by catagory and location when searched. 
+
+Delete Service/Product - Sellers can delete services or products no longer offered on the Sellers "My Quids Page". 
+
+Dashboard Message Option - Buyers may message a seller through the "IN APP" messaging system by clicking on the Contact Me button in the sellers product page. 
+
+Review and Feedback - Buyers may leave a written review after each service/product has been purchased along with a star rating. 
+
+Payment Processor - The Quiddity App utilizes Stripe as a payment services provider. 
 
 
-Prerequisites  - Check package.json for full list: 
-
-NPM
-
-Axios
-
-Express
-
-React
-
-Sass
-
-Node JS
-
-MongoDB
-
-Nodemon
-
-
+## Getting Started
 
 The project repository can be found in GitHub link.
 
+https://github.com/Aaron-McKee/Quiddity.git
+
+### Prerequisites
+
+
+```
+react 18.2.0
+react-dom 18.2.0
+
+axios 1.4.0
+bcrypt 5.1.0
+
+
+sass 1.63.6
+express 4.18.2
+josonwebtoken 9.0.1
+
+node.js
+nodemon 7.3.3
+mongoose 7.3.3
+
+
+```
+
+### Installing
 
 
 Check that you have node and npm installed.
@@ -49,42 +77,13 @@ To start the api side application run the following commmand:
 
 nodemon 
 
+## Built With
 
+* [Vite](https://vitejs.dev/) - Frontend Tooling
+* [MongoDB](https://www.mongodb.com/) - Data Platform 
+* [Cloudinary](https://cloudinary.com/) - Image and Video API
+* [Stripe](https://stripe.com/) - Suite of APIs powering online payment processing 
 
-Environment Variables:
+## Acknowledgments
 
-To run this project, you will need to add the following environment variables to your .env file:
-
-
-
-Server
-
-JWT_SECRET e.g. this_is_secret_123
-
-MONGODB_URI e.g. mongodb cluster URI
-
-STRIPE_SECRET e.g. Secret key from stripe dashboard
-
-NODE_ENV e.g. 'development' for local and 'production' for production
-
-
-
-Client
-
-VITE_API_URL e.g. http://localhost:3000/api or production deployed server link
-
-VITE_STRIPE_PUBLISHABLE_KEY e.g. Publishable key from stripe dashboard
-
-
-
-Tools used on this project:
-
-Visual Studio Code
-
-Vite.js
-
-MongoDB 
-
-Coudinary
-
-Stripe Dashboard to monitor payments
+* Vincent Ngondi - Mentor
